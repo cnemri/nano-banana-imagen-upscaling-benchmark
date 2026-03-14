@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data & Results
+benchmark_results/
+*.png
+*.csv
+!data/*.png
+!data/*.jpg
+!data/*.jpeg
+
